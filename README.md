@@ -35,7 +35,8 @@ README.md: Project documentation explaining the steps and files in the repositor
 
 Installation
 Step 1: Clone the Repository
-Clone this repository to your local machine:
+Clone this repository to your local machine:  
+
 git clone https://github.com/againes6688/customer-churn-prediction.git
 cd customer-churn-prediction
 
