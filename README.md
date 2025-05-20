@@ -1,49 +1,52 @@
-# Customer Churn Prediction
-This repository contains a machine learning model to predict customer churn. The project leverages a customer dataset and a trained model to predict whether a customer will churn (leave the service). The model is trained using the Logistic Regression, Random Forest, and XGBoost algorithms.
+🔮 Customer Churn Prediction
+This project uses machine learning to predict customer churn — helping businesses understand which customers are likely to leave and why. Built with Python and trained on real customer behavior data, the model provides actionable insights using algorithms like Logistic Regression, Random Forest, and XGBoost.
 
-Project Overview
-The goal of this project is to predict customer churn using the following features:
+🚀 Overview
+Using features like:
 
-Tenure: Duration of the customer's subscription.
+⏳ Tenure – how long a customer has subscribed
 
-Usage Frequency: Frequency of service usage.
+🔁 Usage Frequency – how often they use the service
 
-Support Calls: Number of support calls made by the customer.
+☎️ Support Calls – number of times they needed help
 
-Payment Delay: Delay in payment for the service.
+💸 Payment Delay – how late they pay
 
-Models Used:
+…the model predicts whether a customer will stay or churn.
+
+🧠 Algorithms:
 Logistic Regression
 
 Random Forest
 
 XGBoost
 
-Model Evaluation Metrics:
+📊 Evaluation Metrics:
 AUC-ROC
 
-Precision, Recall, F1-Score
+F1 Score
 
 Brier Score
 
-Files in the Repository
-churn_model.ipynb: The trained machine learning model used for predicting customer churn.
+📁 Files
+churn_model.ipynb – the Jupyter notebook with the full training + prediction pipeline
 
-customer_churn_dataset_testing_master.csv: The CSV file containing customer data used for training the model.
+customer_churn_dataset_testing_master.csv – the customer dataset used to train/test the model
 
-README.md: Project documentation explaining the steps and files in the repository.
+README.md – you're reading it!
 
-Installation
-Step 1: Clone the Repository
-Clone this repository to your local machine:  
+⚙️ How to Use
+Clone the repo
 
 git clone https://github.com/againes6688/customer-churn-prediction.git
 cd customer-churn-prediction
 
-Step 2: Install Dependencies
-Ensure you have Python 3.6+ installed. Then, install the required dependencies using pip:
+Install dependencies
 
 pip install -r requirements.txt
 
-Step 3: Load and Use the Model
-Once the dependencies are installed, you can load and use the churn model (churn_model.ipynb) to predict whether a customer will churn.
+Open the notebook
+Run churn_model.ipynb in Jupyter Notebook to explore the data, train models, and make predictions.
+
+🌟 Want to fight churn before it happens? This project helps you do exactly that.
+Let’s predict the future — one customer at a time.
