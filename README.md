@@ -29,7 +29,8 @@ XGBoost
 
 
 📊 Evaluation Metrics:
-AUC-ROC
+
+Model Performance: Achieved an AUC-ROC score of 0.98, demonstrating strong ability to distinguish between customers likely to stay and those likely to churn.
 
 F1 Score
 
